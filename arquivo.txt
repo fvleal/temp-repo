@@ -8,3 +8,6 @@ git init
 git config --global user.name "fvleal"
 git config --global user.email "felipevidaleal@gmail.com"
 git remote add origin git@github.com:fvleal/temp-repo.git
+git add .
+git commit -m 'Initial'
+git push origin master
