@@ -1,0 +1,10 @@
+Um teste qualquer nesse arquivo.
+
+ssh-keygen -t rsa -f "/c/Users/Felipe Vida Leal/.ssh/github" -C 'felipevidaleal@gmail.com'
+eval "$(ssh-agent -s)"
+
+#Iniciando o git
+git init
+git config --global user.name "fvleal"
+git config --global user.email "felipevidaleal@gmail.com"
+git remote add origin git@github.com:fvleal/temp-repo.git
