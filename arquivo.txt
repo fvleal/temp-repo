@@ -1,7 +1,9 @@
 Um teste qualquer nesse arquivo.
 
 ssh-keygen -t rsa -f "/c/Users/Felipe Vida Leal/.ssh/github" -C 'felipevidaleal@gmail.com'
+
 eval "$(ssh-agent -s)"
+ssh-add "/c/Users/Felipe Vida Leal/.ssh/github"
 
 #Iniciando o git
 git init
